@@ -26,6 +26,31 @@ li {
   padding: 0;
 }
 
+h1 {
+  font-size: var(--header-title-h1-size);
+  font-weight: var(--header-title-weight);
+  font-family: var(--header-title-family);
+}
+
+h2 {
+  font-size: var(--header-title-h2-size);
+  font-family: var(--header-title-family);
+  font-weight: var(--header-title-weight);
+}
+
+h3 {
+  font-family: var(--dialog-text-family);
+  font-size: var(--dialog-text-size);
+  font-weight: var(--dialog-text-weight);
+  line-height: var(--dialog-title-height);
+}
+
+h4 {
+  font-weight: var(--title-weight);
+  font-style: Bold;
+  height: 31px;
+}
+
 a {
   color: inherit;
 }
