@@ -270,8 +270,8 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <button class="button button-save" onclick="document.getElementById('dialog').showModal(); return false;">
+     <footer class="footer">
+      <button type="button" class="button button-save" onclick="dialog.showModal()">
         <svg class="button__icon">
           <use xlink:href="./svg/icons.svg#floppy"></use>
         </svg>
@@ -280,19 +280,16 @@
     </footer>
 
     <dialog class="dialog" id="dialog">
-      <form method="dialog">
-        <div class="dialog__content">
-          <svg class="dialog__icon">
-            <use xlink:href="./svg/icons.svg#floppy"></use>
-          </svg>
-          <h3 class="dialog__title">ВСТАВЬТЕ ДИСКЕТУ, ЧТОБЫ ПРОДОЛЖИТЬ</h3>
-        </div>
-        <button class="button dialog__button" onclick="document.getElementById('dialog').close(); return false;">
-          <span class="button__text">Ок</span>
-        </button>
-      </form>
+      <div class="dialog__content">
+        <svg class="dialog__icon">
+          <use xlink:href="./svg/icons.svg#floppy"></use>
+        </svg>
+        <h3 class="dialog__title">ВСТАВЬТЕ ДИСКЕТУ, ЧТОБЫ ПРОДОЛЖИТЬ</h3>
+      </div>
+      <button class="button dialog__button" type="button" onclick="dialog.close()">
+        <span class="button__text">Ок</span>
+      </button>
     </dialog>
-
     <script src="./scripts/like.js"></script>
   </body>
 </html>
