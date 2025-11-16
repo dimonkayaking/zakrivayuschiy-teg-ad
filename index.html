@@ -270,26 +270,31 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <button type="reset" class="button button-save">
-        <svg class="button__icon">
-          <use xlink:href="./svg/icons.svg#floppy"></use>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
+     <footer class="footer">
+      <form method="dialog">
+        <button class="button button-save" type="submit">
+          <svg class="button__icon">
+            <use xlink:href="./svg/icons.svg#floppy"></use>
+          </svg>
+          <span class="button__text">Сохранить на память</span>
+        </button>
+      </form>
     </footer>
 
     <dialog class="dialog" id="dialog">
-      <div class="dialog__content">
-        <svg class="dialog__icon">
-          <use xlink:href="./svg/icons.svg#floppy"></use>
-        </svg>
-        <h3 class="dialog__title">ВСТАВЬТЕ ДИСКЕТУ, ЧТОБЫ ПРОДОЛЖИТЬ</h3>
-      </div>
-      <button class="button dialog__button" type="reset">
-        <span class="button__text">Ок</span>
-      </button>
+      <form method="dialog">
+        <div class="dialog__content">
+          <svg class="dialog__icon">
+            <use xlink:href="./svg/icons.svg#floppy"></use>
+          </svg>
+          <h3 class="dialog__title">ВСТАВЬТЕ ДИСКЕТУ, ЧТОБЫ ПРОДОЛЖИТЬ</h3>
+        </div>
+        <button class="button dialog__button" type="submit">
+          <span class="button__text">Ок</span>
+        </button>
+      </form>
     </dialog>
+
     <script src="./scripts/like.js"></script>
   </body>
 </html>
