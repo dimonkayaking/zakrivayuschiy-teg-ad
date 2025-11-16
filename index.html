@@ -270,15 +270,13 @@
       </section>
     </main>
 
-     <footer class="footer">
-      <form method="dialog">
-        <button class="button button-save" type="submit">
-          <svg class="button__icon">
-            <use xlink:href="./svg/icons.svg#floppy"></use>
-          </svg>
-          <span class="button__text">Сохранить на память</span>
-        </button>
-      </form>
+    <footer class="footer">
+      <button class="button button-save" onclick="document.getElementById('dialog').showModal(); return false;">
+        <svg class="button__icon">
+          <use xlink:href="./svg/icons.svg#floppy"></use>
+        </svg>
+        <span class="button__text">Сохранить на память</span>
+      </button>
     </footer>
 
     <dialog class="dialog" id="dialog">
@@ -289,7 +287,7 @@
           </svg>
           <h3 class="dialog__title">ВСТАВЬТЕ ДИСКЕТУ, ЧТОБЫ ПРОДОЛЖИТЬ</h3>
         </div>
-        <button class="button dialog__button" type="submit">
+        <button class="button dialog__button" onclick="document.getElementById('dialog').close(); return false;">
           <span class="button__text">Ок</span>
         </button>
       </form>
