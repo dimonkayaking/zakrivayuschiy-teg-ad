@@ -104,8 +104,7 @@ main {
 }
 
 .seventh-image {
-  filter: brightness(90%);
-  filter: saturate(1000%);
+  filter: saturate(1000%) brightness(90%);
 }
 
 .eighth-image {
