@@ -8,7 +8,7 @@
     --bg-color: #FFFFFF;
     --header-card-heigth: clamp(12.5rem, 12.5rem + 0.517 * (100vw - 23.438rem), 23rem);
     --text-weight: 400;
-    --title-weight: 700;
+    --title-weight: 785;
     --header-title-weight: 400;
     --header-title-h1-size: clamp(2.5rem, 2.5rem + 0.0492 * (100vw - 20rem), 4.063rem);
     --header-title-h2-size: clamp(0.75rem, 0.75rem + 0.0277 * (100vw - 20rem), 1.438rem);
@@ -16,7 +16,7 @@
     --label-family: 'PressStart2P-Regular', fantasy;
     --label-size: 14px;
     --label-weight: 400;
-    --main-family: 'Inter-Variable', sans-serif;
+    --main-family: 'Inter-Variable';
     --dialog-text-family: 'PressStart2P-Regular', fantasy;
     --dialog-text-weight: 400;
     --dialog-text-size: 14px;

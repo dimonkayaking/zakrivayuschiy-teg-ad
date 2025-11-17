@@ -47,8 +47,14 @@ h3 {
 
 h4 {
   font-weight: var(--title-weight);
-  font-style: Bold;
+  font-family: 'Inter-Variable';
   height: 31px;
+}
+
+p {
+  font-family: var(--main-family);
+  font-variation-settings: 'wdth' var(--text-weight);
+  font-size: 18px;
 }
 
 a {
